@@ -15,8 +15,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn(inter.variable, clashDisplay.variable, inter.className)}>{children}</body>
+      <body
+        className={cn(inter.variable, clashDisplay.variable, inter.className)}
+      >
+        {children}
+      </body>
     </html>
   );
 }
-

@@ -1,16 +1,13 @@
-import { Inter } from 'next/font/google';
-import localFont from 'next/font/local'
+import { Inter } from "next/font/google";
+import localFont from "next/font/local";
 
-const inter = Inter({ 
+const inter = Inter({
   subsets: ["latin"],
-  variable: '--font-inter',
+  variable: "--font-inter",
 });
 const clashDisplay = localFont({
-  src: './ClashDisplay-Variable.woff2',
-  variable: '--font-clash-display',
-}); 
+  src: "./ClashDisplay-Variable.woff2",
+  variable: "--font-clash-display",
+});
 
-export {
-  inter,
-  clashDisplay
-}
+export { inter, clashDisplay };

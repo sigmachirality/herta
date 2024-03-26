@@ -37,6 +37,7 @@
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.2.5",
     "prettier-plugin-tailwindcss": "^0.5.12",
+    "prisma": "^5.11.0",
     "server-only": "^0.0.1"
   }
 }
